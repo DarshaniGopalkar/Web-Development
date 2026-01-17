@@ -1,0 +1,38 @@
+🎨 CSS Concepts Implemented
+✅ Global Styling
+
+Font family
+
+Background color
+
+Text color
+
+Demonstrates CSS cascading behavior
+
+✅ CSS Box Model
+
+Content: Text and images
+
+Padding: Inner spacing within elements
+
+Border: Visual boundaries to understand layout
+
+Margin: Space between elements
+
+✅ Visual Hierarchy
+
+Styled headings, paragraphs, and lists
+
+Improved readability and structure
+
+✅ Class-Based Styling
+
+Reusable CSS classes applied
+
+Avoided inline and repetitive styling
+
+✅ Debugging & Inspection
+
+Browser DevTools used to inspect elements
+
+Live margin and padding adjustments tested
