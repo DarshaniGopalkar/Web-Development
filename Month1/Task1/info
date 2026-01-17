@@ -1,0 +1,39 @@
+Semantic Tags
+
+
+🔹 <header>
+
+Contains intro content + navigation
+
+Helps screen readers understand page structure
+
+🔹 <nav>
+
+Used only for navigation links
+
+Improves accessibility & SEO
+
+🔹 <main>
+
+Wraps the main content
+
+There should be only one <main> per page
+
+🔹 <section>
+
+Groups related content
+
+Used instead of random <div>s
+
+🔹 <article>
+
+Used for independent content (education block)
+
+🔹 <footer>
+
+Contains contact info, copyright
+
+Clearly separates page ending content
+
+👉 Why not <div>?
+Because <div> has no meaning, semantic tags give context + accessibility.
