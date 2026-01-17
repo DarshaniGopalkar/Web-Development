@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character encoding and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Profile</title>
+</head>
+<body>
+    <!-- Header section contains introductory content for the page -->
+    <header>
+        <h1>Darshani Gopalkar</h1>
+        <p>Web Developer | Student | Technology Enthusiast</p>
+    </header>
+
+    <!-- Navigation section for internal page links -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content area of the page -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            
+            <!-- Using <figure> to associate image with caption semantically -->
+            <figure>
+                <!-- <img> tag for profile picture with descriptive alt text for accessibility -->
+                <img src="Photo.jpg" alt="Profile photo of Darshani Gopalkar smiling in professional attire" width="200" height="200">
+                <!-- <figcaption> provides a caption for the figure -->
+                <figcaption>Darshani Gopalkar - Web Development Intern</figcaption>
+            </figure>
+            
+            <!-- <p> tags for paragraph content provide proper text structure -->
+            <p>
+                Hello! I'm a passionate web development intern at Elevate Labs, currently pursuing my degree in 
+                Computer Science. I love creating beautiful, functional, and accessible websites that make a 
+                difference in people's lives.
+            </p>
+            <p>
+                With a strong foundation in HTML, CSS, and JavaScript, I'm constantly learning and improving my 
+                skills to become a proficient full-stack developer. I believe in writing clean, semantic code 
+                that follows industry best practices.
+            </p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            
+            <!-- <article> represents self-contained content that could stand alone -->
+            <article>
+                <h3>Bachelor of Technology in AI & DS</h3>
+                <!-- <strong> emphasizes important text semantically, not just visually -->
+                <p><strong>Shivaji University Name</strong> | 2022 - 2026</p>
+                <p>Relevant Coursework:</p>
+                <!-- <ul> for unordered list when order doesn't matter -->
+                <ul>
+                    <li>Web Development</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Database Management Systems</li>
+                    <li>Software Engineering</li>
+                    <li>Object-Oriented Programming</li>
+                </ul>
+            </article>
+            
+            <article>
+                <h3>Higher Secondary Education</h3>
+                <p><strong>Maharashtra State Board</strong> | 2020 - 2022</p>
+                <p>Percentage: 73% | Stream: Science (PCM)</p>
+            </article>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            
+            <!-- Using <article> for each skill category as they are self-contained -->
+            <article>
+                <h3>Frontend Development</h3>
+                <ul>
+                    <li>HTML5 - Semantic markup and accessibility</li>
+                    <li>CSS3 - Responsive design and animations</li>
+                    <li>JavaScript - ES6+ features and DOM manipulation</li>
+                    <li>Git & GitHub - Version control</li>
+                </ul>
+            </article>
+            
+            <article>
+                <h3>Currently Learning</h3>
+                <ul>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                    <li>Tailwind CSS</li>
+                    <li>API Integration</li>
+                </ul>
+            </article>
+            
+            <article>
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Team Collaboration</li>
+                    <li>Time Management</li>
+                    <li>Quick Learner</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2>Experience & Internships</h2>
+            
+            <!-- Each job/internship is an <article> as it's independent content -->
+            <article>
+                <h3>Web Development Intern</h3>
+                <p><strong>Elevate Labs</strong> | January 2026 - Present</p>
+                <p>Responsibilities and Achievements:</p>
+                <!-- <ol> for ordered list when sequence/priority matters -->
+                <ol>
+                    <li>Building responsive web pages using HTML5, CSS3, and JavaScript</li>
+                    <li>Learning industry best practices for code quality and accessibility</li>
+                    <li>Completing weekly tasks to strengthen practical development skills</li>
+                </ol>
+            </article>
+            
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Information</h2>
+            
+            <!-- <address> element is specifically for contact information -->
+            <address>
+                <p><strong>Email:</strong> <a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
+                <!-- Using <a> with tel: creates clickable phone links on mobile -->
+                <p><strong>Phone:</strong> <a href="tel:+919876543210">+91 98765 xxxxx</a></p>
+                <p><strong>Location:</strong> Kolhapur, Maharashtra, India</p>
+            </address>
+            
+            <p>Feel free to reach out for collaborations, opportunities, or just to connect!</p>
+        </section>
+    </main>
+
+    <!-- Footer section typically contains copyright, links, and metadata -->
+    <footer>
+        <!-- &copy; is an HTML entity for the copyright symbol -->
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+            <!-- <small> represents side comments and fine print -->
+            <small>This page was created as part of my Elevate Labs Web Development Internship - Task 1</small>
+        </p>
+    </footer>
+
+    <!-- 
+        WHY SEMANTIC HTML MATTERS:
+        
+        1. Accessibility: Screen readers can better understand and navigate the page
+        2. SEO: Search engines better understand the content structure
+        3. Maintainability: Code is easier to read and update
+        4. Future-proof: Works better with new technologies
+        5. Professional: Follows industry best practices
+        
+        SEMANTIC ELEMENTS USED vs GENERIC <div>:
+        - <header> instead of <div class="header"> - Clearly marks page header
+        - <nav> instead of <div class="navigation"> - Identifies navigation menu
+        - <main> instead of <div class="content"> - Marks primary content
+        - <section> instead of <div class="section"> - Groups related content
+        - <article> instead of <div class="article"> - Self-contained content
+        - <footer> instead of <div class="footer"> - Marks page footer
+        - <address> instead of <div class="contact"> - Contact information
+        - <figure> instead of <div class="image-container"> - Image with caption
+    -->
+</body>
+</html>
