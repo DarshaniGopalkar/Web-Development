@@ -1,0 +1,9 @@
+🤔 What is Flexbox?
+Flexbox (Flexible Box Layout) is a CSS layout system that makes it easy to:
+
+Align items horizontally or vertically
+Distribute space between items
+Create responsive layouts without complex calculations
+Center elements easily
+
+Think of Flexbox as a smart container that automatically arranges its children!
