@@ -1,0 +1,237 @@
+/* =========================
+   RESET & BASE STYLES
+   This removes default browser spacing
+========================= */
+
+* {
+    margin: 0;              /* Removes default margin */
+    padding: 0;             /* Removes default padding */
+    box-sizing: border-box; /* Includes padding & border in width/height */
+}
+
+/* =========================
+   BODY STYLING
+========================= */
+
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif; /* Clean readable font */
+    background-color: #f5f7fb;                  /* Light background */
+    color: #333;                                /* Dark readable text */
+    line-height: 1.7;                           /* Space between lines */
+}
+
+/* =========================
+   HEADER SECTION (Flexbox)
+========================= */
+
+header {
+    display: flex;              /* Enables Flexbox layout */
+    flex-direction: column;     /* Stacks items vertically */
+    align-items: center;        /* Centers items horizontally */
+    justify-content: center;    /* Centers items vertically */
+
+    background: linear-gradient(135deg, #4b6cb7, #182848); /* Gradient */
+    color: white;               /* White text on dark background */
+    padding: 40px 20px;         /* Space inside header */
+    text-align: center;         /* Center text */
+}
+
+header h1 {
+    font-size: 2.5rem;          /* Large heading */
+    margin-bottom: 8px;         /* Space below heading */
+}
+
+header p {
+    font-size: 1.1rem;          /* Slightly bigger paragraph */
+    opacity: 0.9;               /* Soft faded look */
+}
+
+/* =========================
+   NAVIGATION BAR (Flexbox)
+========================= */
+
+nav ul {
+    display: flex;              /* Makes nav items horizontal */
+    justify-content: center;    /* Centers nav items */
+    align-items: center;        /* Aligns items vertically */
+    gap: 30px;                  /* Space between links */
+
+    list-style: none;           /* Removes bullets */
+    background-color: white;    /* White background */
+    padding: 15px;              /* Space inside nav */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08); /* Soft shadow */
+}
+
+nav ul li a {
+    text-decoration: none;      /* Removes underline */
+    color: #4b6cb7;             /* Primary color */
+    font-weight: 600;           /* Semi-bold text */
+    transition: color 0.3s ease;/* Smooth hover effect */
+}
+
+nav ul li a:hover {
+    color: #182848;             /* Darker color on hover */
+}
+
+/* =========================
+   MAIN CONTENT AREA
+========================= */
+
+main {
+    max-width: 1100px;          /* Limits content width */
+    margin: auto;               /* Centers content */
+    padding: 30px 20px;         /* Space around content */
+}
+
+/* =========================
+   COMMON SECTION STYLES
+========================= */
+
+section {
+    margin-bottom: 40px;        /* Space between sections */
+}
+
+section h2 {
+    font-size: 1.8rem;          /* Section heading size */
+    margin-bottom: 20px;
+    color: #182848;
+    border-left: 5px solid #4b6cb7; /* Decorative left border */
+    padding-left: 12px;
+}
+
+/* =========================
+   ABOUT SECTION
+========================= */
+
+#about figure {
+    display: flex;              /* Enables Flexbox */
+    flex-direction: column;     /* Image and caption stacked */
+    align-items: center;        /* Center aligned */
+    margin-bottom: 20px;
+}
+
+#about img {
+    border-radius: 50%;         /* Makes image circular */
+    border: 5px solid #4b6cb7;  /* Colored border */
+    margin-bottom: 10px;
+}
+
+#about figcaption {
+    font-size: 0.9rem;          /* Small caption text */
+    color: #666;
+}
+
+/* =========================
+   EDUCATION SECTION (Cards)
+========================= */
+
+#education article {
+    background-color: white;    /* Card background */
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;        /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.08); /* Card shadow */
+}
+
+/* =========================
+   SKILLS SECTION (Flexbox)
+========================= */
+
+#skills {
+    display: flex;              /* Enables Flexbox */
+    gap: 20px;                  /* Space between cards */
+    flex-wrap: wrap;            /* Wrap cards on small screens */
+    justify-content: center;    /* Center cards */
+}
+
+#skills article {
+    background-color: white;
+    padding: 20px;
+    width: 300px;               /* Fixed card width */
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease; /* Hover animation */
+}
+
+#skills article:hover {
+    transform: translateY(-5px); /* Moves card up slightly */
+}
+
+#skills ul {
+    margin-top: 10px;
+    padding-left: 18px;
+}
+
+/* =========================
+   EXPERIENCE SECTION
+========================= */
+
+#experience article {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    border-left: 6px solid #4b6cb7; /* Highlight bar */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   CONTACT SECTION
+========================= */
+
+#contact address {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+}
+
+#contact a {
+    color: #4b6cb7;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   FOOTER (Flexbox)
+========================= */
+
+footer {
+    display: flex;              /* Enables Flexbox */
+    flex-direction: column;     /* Stack text vertically */
+    align-items: center;        /* Center horizontally */
+    justify-content: center;    /* Center vertically */
+
+    background-color: #182848;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer small {
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 768px) {
+
+    nav ul {
+        flex-direction: column; /* Stack nav items vertically */
+        gap: 15px;
+    }
+
+    #skills {
+        flex-direction: column; /* Stack skill cards */
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 2rem;        /* Smaller heading on mobile */
+    }
+}
