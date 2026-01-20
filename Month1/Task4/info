@@ -1,0 +1,39 @@
+1. home.html - Homepage
+
+Hero section with introduction
+Featured skills showcase
+Recent work highlights
+Call-to-action sections
+Active nav link: Home
+
+2. about.html - About Page
+
+Personal introduction
+Profile image with stats
+Work experience details
+Interests and hobbies
+Active nav link: About
+
+3. education.html - Education Page
+
+Bachelor's degree details
+Higher secondary education
+Certifications and online learning
+Academic achievements
+Active nav link: Education
+
+4. skills.html - Skills Page
+
+Technical skills breakdown
+Soft skills showcase
+Proficiency level indicators
+Skills categorization
+Active nav link: Skills
+
+5. contact.html - Contact Page
+
+Contact information
+Contact form (HTML only)
+Social media links
+FAQ section
+Active nav link: Contact
