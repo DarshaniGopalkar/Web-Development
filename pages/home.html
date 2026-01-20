@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Darshani Gopalkar - Web Developer Portfolio Homepage">
+    <title>Home - Darshani Gopalkar</title>
+    
+    <!-- Link to shared CSS file using relative path -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Consistent header across all pages -->
+    <header>
+        <h1>Darshani Gopalkar</h1>
+        <p>Web Developer | AI & DS Student | Tech Enthusiast</p>
+    </header>
+
+    <!-- 
+        NAVIGATION - Consistent across all pages
+        Relative paths are used to link between pages
+        Active page is highlighted using class="active"
+    -->
+    <nav>
+        <ul>
+            <!-- Current page (home) has class="active" for highlighting -->
+            <li><a href="home.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h2>Welcome to My Portfolio</h2>
+                <p class="lead">
+                    I'm a passionate web developer specializing in creating beautiful, 
+                    functional, and user-friendly websites. Currently pursuing my degree 
+                    in AI & Data Science at Shivaji University.
+                </p>
+                <div class="cta-buttons">
+                    <a href="about.html" class="btn btn-primary">Learn More About Me</a>
+                    <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="../images/Photo.jpg" alt="Darshani Gopalkar - Profile Picture" width="300" height="300">
+            </div>
+        </section>
+
+        <!-- Featured Skills Section -->
+        <section id="featured-skills">
+            <h2>What I Do</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Web Design</h3>
+                    <p>Creating beautiful, intuitive user interfaces with modern design principles.</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Building responsive, accessible websites using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">📱</div>
+                    <h3>Responsive Design</h3>
+                    <p>Ensuring seamless experience across all devices and screen sizes.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Work Section -->
+        <section id="recent-work">
+            <h2>Recent Work</h2>
+            <div class="work-grid">
+                <article class="work-card">
+                    <h3>Elevate Labs Internship</h3>
+                    <p class="work-meta">January 2026 - Present</p>
+                    <p>
+                        Currently working as a Web Development Intern, completing hands-on 
+                        tasks to strengthen practical skills in HTML, CSS, JavaScript, and 
+                        responsive design.
+                    </p>
+                    <a href="about.html#experience" class="link-arrow">View Details →</a>
+                </article>
+                
+                <article class="work-card">
+                    <h3>Personal Portfolio</h3>
+                    <p class="work-meta">Ongoing Project</p>
+                    <p>
+                        Built a multi-page responsive portfolio website showcasing my skills, 
+                        education, and experience using semantic HTML and modern CSS techniques.
+                    </p>
+                    <a href="skills.html" class="link-arrow">See Skills →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section id="cta" class="cta-section">
+            <h2>Let's Work Together</h2>
+            <p>
+                I'm always interested in hearing about new projects and opportunities. 
+                Whether you have a question or just want to say hi, feel free to reach out!
+            </p>
+            <a href="contact.html" class="btn btn-large">Contact Me</a>
+        </section>
+    </main>
+
+    <!-- Consistent footer across all pages -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <p>Email: abc@gmail.com</p>
+                <p>Location: Kolhapur, Maharashtra</p>
+            </div>
+            <div class="footer-section">
+                <h3>About This Site</h3>
+                <p>Built with semantic HTML5, CSS3, and Flexbox as part of Elevate Labs Web Development Internship.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Darshani Gopalkar. All rights reserved.</p>
+            <p><small>Task 4 - Multi-Page Website Project</small></p>
+        </div>
+    </footer>
+</body>
+</html>
