@@ -1,0 +1,6 @@
+Task 5 focuses on creating a clean and accessible contact form using only HTML and CSS, 
+where input validation is handled by built-in HTML5 features without using JavaScript. 
+The task involves using form elements like <form>, <input>, <textarea>, and <button>, applying appropriate input types such as email and telephone, 
+and using validation attributes like required, pattern, and maxlength to ensure correct user input. Labels are properly linked to inputs for accessibility, 
+form fields are logically grouped, and CSS is used to design a user-friendly interface. 
+The form is tested directly in the browser to observe default validation messages, ensuring a fully validated and professional contact form
